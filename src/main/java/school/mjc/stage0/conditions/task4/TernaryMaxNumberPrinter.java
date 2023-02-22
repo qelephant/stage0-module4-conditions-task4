@@ -2,7 +2,7 @@ package school.mjc.stage0.conditions.task4;
 
 public class TernaryMaxNumberPrinter {
     public void printGreatest(int first, int second, int third) {
-         int max = (first > second) ? (first > third ? first : third) : (second > third ? second : third);
-        System.out.prinltn(max);
+        int max = (first > second) ? (first > third ? first : third) : (second > third ? second : third);
+        System.out.println(max);
     }
 }
